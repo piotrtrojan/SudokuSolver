@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.1.4/lib/p5.min.js"></script>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    <button onclick="loadNewBoard(1)">New(easy)</button>
+    <button onclick="loadNewBoard(2)">New(advanced)</button>
+    <button onclick="loadNewBoard(3)">New(hard)</button>
+    <button onclick="solveStep()">Next Step</button>
+    <button onclick="solveBoard()">Solve board</button>
+    <button onclick="toggleLogs()">Toggle logs</button>
+    <button onclick="continiousWork()">Continious Work</button>
+    <script src="logger.js"></script>
+    <script src="cell.js"></script>
+    <script src="cleaner.js"></script>
+    <script src="boardLoader.js"></script>
+    <script src="engine.js"></script>
+    <script src="sudokuSolver.js"></script>
+</body>
+
+</html>
